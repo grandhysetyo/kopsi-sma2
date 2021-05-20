@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 /* BIDANG DETAIL */
 .bidang-detail{
     background-image: url('/assets/images/bg-section.png');        
