@@ -11,12 +11,12 @@ export default class Bidang extends Component {
             <div className="bidang-detail">                
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-lg-4" data-aos="fade-right">
                             <h2 className="title-section">BIDANG LOMBA</h2>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-lg-12 p-0">
+                        <div className="col-lg-12 p-0" data-aos="fade-left">
                             <div className="card-bidang mst-b">   
                                 <img src="/assets/images/mst-bidang.png" alt="" className="d-none d-lg-block d-xl-block"/> 
                                 <div className="text">                                    
@@ -28,7 +28,7 @@ export default class Bidang extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-lg-12 p-0">
+                        <div className="col-lg-12 p-0" data-aos="fade-right">
                             <div className="card-bidang ftr-b">   
                                 <img src="/assets/images/ftr-bidang.png" alt="" className="d-none d-lg-block d-xl-block"/> 
                                 <div className="text">
@@ -40,7 +40,7 @@ export default class Bidang extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-lg-12 p-0">
+                        <div className="col-lg-12 p-0" data-aos="fade-left">
                             <div className="card-bidang ish-b">   
                                 <img src="/assets/images/ish-bidang.png" alt="" className="d-none d-lg-block d-xl-block"/> 
                                 <div className="text">
@@ -51,12 +51,12 @@ export default class Bidang extends Component {
                             </div>                            
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row" data-aos="zoom-in-up">
                         <div className="col-lg-4 mx-auto mb-5">
                             <h2 className="title-section mt-5">PENGHARGAAN</h2>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row" data-aos="zoom-in-up">
                         <div className="col-md-6 col-lg-3 mb-5">
                             <div className="medali gold">
                                 <img src="/assets/images/prize-gold.png" alt=""/>

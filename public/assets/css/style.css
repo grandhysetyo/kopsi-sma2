@@ -113,6 +113,20 @@ section {
     width: 150px;
 }
 
+.navbar-brand-txt{
+    width: 20%;         
+    line-height: 18px;
+    font-weight: bold;   
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 14px;    
+    white-space: nowrap; 
+}
+.txt-blue{
+    color:#1D76BB;
+}
 .navbar-light .collapse.show{
     background-color:#fff;
     padding: 20px;

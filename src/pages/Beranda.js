@@ -36,8 +36,7 @@ const Beranda = (props) => {
             mousewheel={true} 
             pagination={{"clickable": true}}
             onSlideChange={(e) => {
-                props.sectionActive(e.realIndex) 
-                console.log(e.realIndex)
+                props.sectionActive(e.realIndex)                 
                 if(e.realIndex===1){
                     $('#bidang-text').addClass('aos-init').addClass('aos-animate')
                     $('#bidang-mst').addClass('aos-init').addClass('aos-animate')
@@ -63,9 +62,7 @@ const Beranda = (props) => {
                 }else if(e.realIndex===5){
                     $('#footer-bg').addClass('aos-init').addClass('aos-animate')
                     $('#footer').addClass('aos-init').addClass('aos-animate')
-                }
-                
-                
+                }                                
             }}                         
             className="mySwiper">
                 <SwiperSlide>

@@ -16,8 +16,8 @@ const Navbar = (props) => {
                 <a className="navbar-brand" href="/">
                     {Logo(dark)}                    
                 </a>
-                <div>
-                    Lorem ipsum dolor sit amet hsd oa as
+                <div className={dark ? 'navbar-brand-txt text-white d-none d-lg-block d-xl-block' : 'navbar-brand-txt txt-blue d-none d-lg-block d-xl-block' }>
+                    Inovasi Potensi Lokal <br/> untuk Pemulihan Indonesia
                 </div>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
